@@ -2,21 +2,21 @@ int belobUdenMoms = 1256;
 float belobMedMoms = 0;
 String navn = "Bob";
 
-PFont JL;
+//PFont JL;
 
 void setup(){
   noLoop();
   size(400,600);
-  JL = createFont("Arial",24,true);
+  //JL = createFont("Arial",24,true);
 }
 
 
 void draw(){
-  textFont(JL,20);
+ // textFont(JL,20);
   fill(0);
-   float belobMedMoms = beregnMoms(belobUdenMoms);
+  float belobMedMoms = beregnMoms(belobUdenMoms);
   background(255);
-  text("Fakta, Agtoftsvej 1",20,50);
+  //text("Fakta, Agtoftsvej 1",20,50);
   //text("Tidspunkt for køb:",day(),"/",month(),year(),hour(),":",minute(),50,90);
   println("Fakta, Agtoftsvej 1");
   println("");
