@@ -41,3 +41,4 @@ void draw(){
 float beregnMoms(int belob){
   return belob*1.25;
 }
+// du har nok printet lidt for meget måske
