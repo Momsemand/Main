@@ -1,4 +1,4 @@
-int belobUdenMoms = 1256;
+int belobUdenMoms = int(random(0,2500));
 float belobMedMoms = 0;
 String navn = "Bob";
 
