@@ -6,7 +6,7 @@ int speedY = 3;
 
 PVector playerpos = new PVector(835.0,445.0);
 PVector playerpos1 = new PVector(834.0,446.0);
-    
+   
     //Eksempelkode linje taget fra bruger Chrisrir, linje 77. -- https://forum.processing.org/one/topic/basic-shooting-and-dection.html
 float  barrelAngle = (atan2(mouseY-playerpos.y,mouseX-playerpos.x));  //ANGLE AT MOUSE POINTER
     
@@ -17,7 +17,6 @@ bullet = createShape(ELLIPSE,playerpos,8,8);
 int bulletSpeed = 6;
 
 //===================================================================================
-
 
 void setup(){
   size(1800,900);

@@ -23,7 +23,7 @@
     //playerpos1.x += bulletSpeed;
    // playerpos1.y += bulletSpeed;
   
- /* if(playerpos1.x <= 51 && playerpos1.x > 852){
+  if(playerpos1.x <= 51 && playerpos1.x > 852){
   }
   
   if(playerpos1.y <= 3 && playerpos1.y > 303){
