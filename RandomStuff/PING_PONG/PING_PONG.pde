@@ -3,6 +3,9 @@ leftBracket l;
 rightBracket r;
 Ball b;
 
+  int bracketSizeX = 16;
+  int bracketSizeY = 150;
+
 
 void setup(){
   size(1900,960);
@@ -24,6 +27,7 @@ void draw(){
   
   b.display();
   b.move();
+  //b.mouseClicked();
   
   }
   

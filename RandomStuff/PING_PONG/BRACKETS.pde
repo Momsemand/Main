@@ -17,7 +17,7 @@ class leftBracket {
   void display(){
     stroke(0);
     fill(255);
-    rect(x,y,15,150); //LEFT BRACKET
+    rect(x,y,16,150); //LEFT BRACKET
   }
 
 
@@ -61,7 +61,7 @@ class rightBracket {
   void display(){ //https://youtu.be/XwfOVFelLoo + https://youtu.be/NrwaKOsplZk
     stroke(0);
     fill(255);
-    rect(x+1630,y,15,150); //LEFT BRACKET
+    rect(x+1592,y,16,150); //LEFT BRACKET
   }
 
 

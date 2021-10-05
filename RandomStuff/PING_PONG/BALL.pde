@@ -1,3 +1,5 @@
+//Inspiration fra processing reference: https://processing.org/examples/mousefunctions.html
+
 class Ball{
   
   //PVector ballpos = new PVector(950,480);
@@ -5,10 +7,9 @@ class Ball{
   int x = width/2-10;
   int y = height/2-10;
 
-  int speedX = 5;
+  int speedX = 8;
   int speedY = 5;
   
-  float angle;
   
   Ball(int x,int y){
   }
@@ -34,5 +35,16 @@ class Ball{
       speedY = -speedY;
     }
     
+    if (x > r.x && y < r.y){
+      speedX = -speedX;
+    }
+    
+    if (x > l.x && y < l.y){
+      speedX = -speedX;
+    }
+    
   }
 }
+  
+
+  
