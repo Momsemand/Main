@@ -23,7 +23,7 @@ void draw(){
   r.move();
   
   b.display();
-
+  b.move();
   
   }
   

@@ -2,8 +2,8 @@ class Ball{
   
   //PVector ballpos = new PVector(950,480);
   
-  int x = 950;
-  int y = 480;
+  int x = width/2-10;
+  int y = height/2-10;
 
   int speedX = 5;
   int speedY = 5;
@@ -17,19 +17,22 @@ class Ball{
   void display(){
    stroke(0);
    fill(255);
-   ellipse(x,y,20,20);
+   rect(x,y,20,20);
   }
   
   
   void move(){
     
+    x += speedX;
+    y += speedY;
     
-    
-    if(x < 0 || x > 1900 || y < 0 || y > 960){
-      angle = -angle;
+    if (x < 0 || x > 1875){
+      speedX = -speedX;
     }
     
+    if (y < 0 || y > 935){
+      speedY = -speedY;
+    }
     
   }
-  
 }
