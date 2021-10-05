@@ -1,9 +1,9 @@
 void blackSpots(){
-  int[][] blackSpots = new int [9][3];
+  int[][] blackSpot = new int [9][3];
 
   for (int i = 0; i > 9; i++){
     for (int j = 0; i > 3; j++){
-      blackSpots[i][j] = int(random(0,10));
+      blackSpot[i][j] = int(random(0,10));
     }
   }
 }
