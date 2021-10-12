@@ -1,0 +1,14 @@
+
+boolean loop = true;
+
+int x = 0;
+
+draw(){
+    while(loop = true){
+        x++;
+    }
+
+}
+
+
+
