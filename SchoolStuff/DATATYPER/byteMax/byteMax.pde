@@ -2,6 +2,8 @@ boolean loop = true;
 
 byte x = 0;
 
+
+// = sætter loop = true - == sammenligner loop om den er lig med true.. Du burde altså bruge == og ikke =
 while (loop = true) {
   
   x++;
@@ -14,6 +16,6 @@ while (loop = true) {
   
   println(x);
   
-  break;
+  break; // Det er HARAM at bruge break!!
   }
 }
