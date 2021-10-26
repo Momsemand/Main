@@ -49,12 +49,12 @@ println("Der er:" ,j,"e'er");
 
 boolean found=true;
 int i = 0;
-while(found){
+while(found && i<57){
     i++;
     if(s.charAt(i) =='e'){
       println('e');
       j++;
-      if(i<s.length()){
+      if(i>s.length()){
       found = !true;
       }
     }
