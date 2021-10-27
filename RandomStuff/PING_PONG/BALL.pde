@@ -1,3 +1,4 @@
+/*
 //Inspiration fra processing reference: https://processing.org/examples/mousefunctions.html
 
 class Ball{
@@ -43,6 +44,6 @@ class Ball{
     
   }
 }
-  
+  */
 
   
