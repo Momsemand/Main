@@ -123,8 +123,12 @@ if (str2.equals("ja"))
  
  /*
 a) hvad udskriver programmet?
+
 Programmet udskriver "Det gør den ikke!"
+
+
 b) hvordan kan du få programmet til at udskrive det modsatte af, hvad den gør nu?
+
 Betingelsen for om programmet skal skrive "Det gør den!" eller "Det gør den ikke!" er om der står -
 "ja" eller alt andet end det i string str2.
 Hvis vi vil have programmet til at udskrive det modsatte af det den skriver nu, skal vi blot ændre -
