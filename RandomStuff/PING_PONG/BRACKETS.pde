@@ -31,7 +31,7 @@ class leftBracket {
       y = y - speedY;
     }
   
-    if(key == CODED){
+    if(key == CODED){ //FROM BLOCK OR BLOCKTANK
   
       if(keyCode == LEFT){
        y += -speedY;
@@ -76,7 +76,7 @@ class rightBracket {
       y = y - speedY;
     }
   
-    if(key == CODED){
+    if(key == CODED){ //FROM BLOCK OR BLOCKTANK
   
       if(keyCode == LEFT){
        y += -speedY;
