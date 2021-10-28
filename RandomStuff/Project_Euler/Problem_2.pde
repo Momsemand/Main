@@ -1,15 +1,5 @@
-int j = 1;
-
-  for(int i=0;i<40;i++){
-
-      //println(i);
-      j = i+j;
-      
-      if(j%2==0){
-        println(j);
-      }
-      if(i>40){
-        break;  
-      }
-
+  for(long i=1;i<4000000;){
+    long j = i;
+      println(i);
+      i = j+i;
   }
