@@ -10,13 +10,13 @@ for(int i=0;i<s.length();i++){
 //--------------------------------------------------------------------------------------------------
 
 // OPGAVE 2
-
+/*
 for(int i=0;i<30;i++){
   if(i>10 && i<=20){
         println(i);
       }
 }
-
+*/
 /*
 boolean found = true;
 int i = 0;
@@ -34,18 +34,18 @@ while(found == true){
 //------------------------------------------------------------------------------------------------
 
 //OPGAVE 3
-/*
+
 String s  = "Dette er en sætning med mange e'er. Men hvor mange er der?";
 int j = 0;
 
 for(int i=0;i<s.length();i++){
   if(s.charAt(i)=='e'){
-    println('e');
+    print('e');
     j++;
   }
 }
-println("Der er:" ,j,"e'er");
-*/
+println(" Der er:" ,j,"e'er");
+
 /*
 boolean found=true;
 int i = 0;
