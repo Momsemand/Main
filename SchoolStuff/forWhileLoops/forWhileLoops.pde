@@ -10,19 +10,19 @@ for(int i=0;i<s.length();i++){
 //--------------------------------------------------------------------------------------------------
 
 // OPGAVE 2
-/*
+
 for(int i=0;i<30;i++){
-  if(i>10 && i<21){
+  if(i>10 && i<=20){
         println(i);
       }
 }
-*/
+
 /*
 boolean found = true;
 int i = 0;
 while(found == true){
   i++;
-    if(i>10 && i<21){
+    if(i>10 && i<=20){
       println(i);
     }
     if(i>30){
@@ -114,13 +114,13 @@ println(s1);
 */
 //-----------------------------------------------------------------------------------------------
 //OPGAVE 10
-
+/*
 String str2 =  "Nej";
 if (str2.equals("ja"))
   println ("Det gør den!");
  else
   println ("Det gør den ikke!");
- 
+ */
  /*
 a) hvad udskriver programmet?
 
