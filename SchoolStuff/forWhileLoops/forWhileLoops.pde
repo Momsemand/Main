@@ -100,17 +100,15 @@ println(s1);
 //OPGAVE 8
 /*
 String s = "Løkken skal udskrive alle e'er og tilsidst udskrive hvor mange e'er som er fundet. Ja, så er det rigtigt :)";
-String s1 = s.toUpperCase();
 
-println(s1);
+println(s.toUpperCase());
 */
 //----------------------------------------------------------------------------------------------
 //OPGAVE 9
 /*
 String s = "Løkken skal udskrive alle e'er og tilsidst udskrive hvor mange e'er som er fundet. Ja, så er det rigtigt :)";
-String s1 = s.toLowerCase();
 
-println(s1);
+println(s.toLowerCase());
 */
 //-----------------------------------------------------------------------------------------------
 //OPGAVE 10
