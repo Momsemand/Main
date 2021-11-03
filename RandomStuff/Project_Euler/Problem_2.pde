@@ -1,29 +1,31 @@
 
 long x = 1;
 long y = 0;
-long z = 0;
+//long z = 0;
 
 long t = 0;
 
-long a;
+//long a;
 long b;
 long c;
 
 boolean yes = true;
 
+y = x;
+
 while(yes == true){ //<>//
-a = x;
-b = a;
-c = a+b;
 
-if(c>4000000){
-  if(c%2 == 0){
-  //println(c); //<>//
-  }
+b = y;
+c = y+b;
 
-}
- t = t+c;
+   y = c;
+ //<>//
    println(t);
-   t=a;
+   t = t+c;
+
+   
+   if(t>4000000){
+     yes = !true;
+   }
    
 } 
