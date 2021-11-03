@@ -1,11 +1,11 @@
 
 long x = 1;
 long y = 0;
-//long z = 0;
+long z = 0;
 
 long t = 0;
 
-//long a;
+long a = 0;
 long b;
 long c;
 
@@ -15,13 +15,14 @@ y = x;
 
 while(yes == true){ //<>//
 
-b = y;
+b = y+a;
 c = y+b;
 
    y = c;
+   z = a;
  //<>//
    println(t);
-   t = t/2+c;
+   t = t+c;
 
    
    if(t>4000000){
