@@ -21,7 +21,7 @@ c = y+b;
    y = c;
  //<>//
    println(t);
-   t = t+c;
+   t = t/2+c;
 
    
    if(t>4000000){
