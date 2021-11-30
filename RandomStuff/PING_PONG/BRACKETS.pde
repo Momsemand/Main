@@ -46,6 +46,7 @@ class leftBracket {
 }
 
  // PROBLEM = HVORDAN FLYTTER MAN 2 FORSKELLIGE OBJEKTER PÅ SAMME TID
+ // TURNS OUT YOU CAN'T
 //=======================================================================================
 
 

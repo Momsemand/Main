@@ -42,7 +42,7 @@ class Ball{
     if (x > 150 || x > 1742){
      speedX = -speedX; 
     }
-   
+   // check x-value. That is problem
     
   }
 
