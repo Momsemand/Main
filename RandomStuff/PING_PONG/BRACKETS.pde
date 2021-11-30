@@ -1,4 +1,4 @@
-/*
+
 // eksempelkode brugt fra 'The Coding Train' på youtube:
 //https://youtu.be/XwfOVFelLoo + https://youtu.be/NrwaKOsplZk
 
@@ -89,4 +89,3 @@ class rightBracket {
     }
   }
 }
-*/

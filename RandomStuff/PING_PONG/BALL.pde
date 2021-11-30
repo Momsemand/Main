@@ -1,4 +1,4 @@
-/*
+
 //Inspiration fra processing reference: https://processing.org/examples/mousefunctions.html
 
 class Ball{
@@ -36,7 +36,7 @@ class Ball{
       speedY = -speedY;
     }
     
-    if (x-100 > r.x && y-100 < r.y && x-100 > l.x && y-100 < l.y){
+    if (x > r.x && y < r.y || x > l.x && y < l.y){
       speedX = -speedX;
     }
     
@@ -44,6 +44,6 @@ class Ball{
     
   }
 }
-  */
+  
 
   
