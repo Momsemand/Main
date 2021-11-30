@@ -17,7 +17,8 @@ void setup(){
 
 
 void draw(){
-  background(20);
+
+  //background(20);
     
   l.display();
   l.move();
@@ -28,6 +29,7 @@ void draw(){
   b.display();
   b.move();
   //b.mouseClicked();
+
   
   }
   

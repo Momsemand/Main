@@ -36,13 +36,16 @@ class Ball{
       speedY = -speedY;
     }
     
-    if (x > r.x && y < r.y || x > l.x && y < l.y){
+    if (y > r.y && y < r.y+150 || y > l.y && y < l.y+150){
       speedX = -speedX;
     }
-    
+    if (x > 150 || x > 1742){
+     speedX = -speedX; 
+    }
    
     
   }
+
 }
   
 

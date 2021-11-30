@@ -24,22 +24,22 @@ class leftBracket {
 
   void move(){
     
-    if(y <= 0){
-      y = y + speedY;
+    if(this.y <= 0){
+      this.y = this.y + speedY;
     }
   
-    if(y >= 808){
-      y = y - speedY;
+    if(this.y >= 808){
+      this.y = this.y - speedY;
     }
   
     if(key == CODED){ //FROM BLOCK OR BLOCKTANK
   
       if(keyCode == LEFT){
-       y += -speedY;
+       this.y += -speedY;
       }
      
       if(keyCode == RIGHT){
-         y += speedY;
+         this.y += speedY;
       }
     }
   }
