@@ -1,52 +1,52 @@
 
 //Inspiration fra processing reference: https://processing.org/examples/mousefunctions.html
 
-class Ball{
-  
+class Ball {
+
   //PVector ballpos = new PVector(950,480);
-  
-  int x = width/2-10;
-  int y = height/2-10;
+
+  // set ball start posotion to middle of window
+  int x = width/2;
+  int y = height/2;
 
   int speedX = 8;
   int speedY = 5;
-  
-  
-  Ball(int x,int y){
+
+
+  Ball(int x, int y) {
   }
-  
-  
-  void display(){
-   stroke(0);
-   fill(255);
-   rect(x,y,20,20);
+
+
+  void display() {
+    rectMode(CENTER);
+    stroke(0);
+    fill(255);
+    rect(x, y, 20, 20);
   }
-  
-  
-  void move(){
-    
-    x += speedX;
-    y += speedY;
-    
-    if (x < 0 || x > 1875){
+
+
+  void move() {
+    this.x += speedX;
+    this.y += speedY;
+
+    //wall collision left and right
+    if (this.x < 0 || this.x > 1875) {
       speedX = -speedX;
     }
-    
-    if (y < 0 || y > 935){
+
+    //wall collision top and bottom
+    if (this.y < 0 || this.y > 935) {
       speedY = -speedY;
     }
-    
-    if (y > r.y && y < r.y+150 || y > l.y && y < l.y+150){
+
+    //left bracket collision
+    if (this.y > l.y && this.y < l.y+bracketSizeY && this.x > l.x-bracketSizeX+6 && this.x < l.x+bracketSizeX+2) {
       speedX = -speedX;
     }
-    if (x > 150 || x > 1742){
-     speedX = -speedX; 
-    }
-   // check x-value. That is problem
-    
+
+    //right bracket collision
+    /*if(this.y > r.y && this.y < r.y+150 && this.x > r.x-10 && this.x < r.x+18){
+     speedX = -speedX;
+     }*/
   }
-
 }
-  
-
-  
