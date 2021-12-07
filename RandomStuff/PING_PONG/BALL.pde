@@ -40,7 +40,7 @@ class Ball {
     }
 
     //left bracket collision
-    if (this.y > l.y && this.y < l.y+bracketSizeY && this.x > l.x-bracketSizeX+6 && this.x < l.x+bracketSizeX+2) {
+    if (this.y > l.y && this.y < l.y+bracketSizeY && this.x > l.x-bracketSizeX+6 && this.x < l.x+bracketSizeX) {
       speedX = -speedX;
     }
 
