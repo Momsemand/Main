@@ -1,4 +1,4 @@
- /* class Bullet {
+  /*class Bullet {
     
     PVector playerpos = new PVector(835.0,445.0);
     
