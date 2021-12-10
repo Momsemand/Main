@@ -2,13 +2,14 @@
 // eksempelkode brugt fra 'The Coding Train' på youtube:
 //https://youtu.be/XwfOVFelLoo + https://youtu.be/NrwaKOsplZk
 
+int speedY = 6;
 
 class leftBracket {
 
   int x = 150;
   int y = 405;
 
-  int speedY = 5;
+  //int speedY = 20;
 
 
   leftBracket(int x, int y) {
@@ -56,7 +57,7 @@ class rightBracket {
   int x = 150;
   int y = 405;
 
-  int speedY = 5;
+  //int speedY = 20;
 
   rightBracket(int x, int y) {
   }

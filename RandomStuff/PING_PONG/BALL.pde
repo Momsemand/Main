@@ -9,7 +9,7 @@ class Ball {
   int x = width/2;
   int y = height/2;
 
-  int speedX = 8;
+  int speedX = 12;
   int speedY = 5;
 
 
@@ -32,21 +32,25 @@ class Ball {
     //wall collision left and right
     if (this.x < 0 || this.x > 1875) {
       speedX = -speedX;
+      //speedY = (int)random(-5,5);
     }
 
     //wall collision top and bottom
     if (this.y < 0 || this.y > 935) {
       speedY = -speedY;
+      //speedY = (int)random(-5,5);
     }
 
     //left bracket collision
-    if (this.y > l.y && this.y < l.y+bracketSizeY && this.x > l.x-bracketSizeX+6 && this.x < l.x+bracketSizeX) {
+    if (this.y > l.y && this.y < l.y+bracketSizeY && this.x > l.x-bracketSizeX+6 && this.x < l.x+bracketSizeX+10) {
       speedX = -speedX;
+      //speedY = (int)random(-5,5);
     }
 
     //right bracket collision
-    /*if(this.y > r.y && this.y < r.y+150 && this.x > r.x-10 && this.x < r.x+18){
-     speedX = -speedX;
-     }*/
+    if (this.y > r.y && this.y < r.y+bracketSizeY && this.x > r.x+1592-bracketSizeX && this.x < r.x+1592+bracketSizeX+8) {
+      speedX = -speedX;
+      //speedY = (int)random(-5,5);
+    }
   }
 }

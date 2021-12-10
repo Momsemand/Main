@@ -4,11 +4,18 @@ int y = 145;
 int speedX = 4;
 int speedY = 3;
 
+int playerposX = 835;
+int playerposY = 445;
+
+float  barrelAngle = (atan2(mouseY-playerposY,mouseX-playerposX));  //ANGLE AT MOUSE POINTER
+
+
+/*
 PVector playerpos = new PVector(835.0, 445.0);
 PVector playerpos1 = new PVector(834.0, 446.0);
-
+*/
 //Eksempelkode linje taget fra bruger Chrisrir, linje 77. -- https://forum.processing.org/one/topic/basic-shooting-and-dection.html
-float  barrelAngle = (atan2(mouseY-playerpos.y, mouseX-playerpos.x));  //ANGLE AT MOUSE POINTER
+//float  barrelAngle = (atan2(mouseY-playerposY, mouseX-playerposX));  //ANGLE AT MOUSE POINTER
 
 /*
 PShape bullet;
@@ -17,7 +24,11 @@ bullet = createShape(ELLIPSE,playerpos,8,8);
 
 int bulletSpeed = 6;
 */
+/*
+Bullet b;
 
+b = new Bullet(playerposX,playerposY);
+*/
 //===================================================================================
 
 void setup() {
@@ -56,8 +67,8 @@ void draw() {
 
 
   pushMatrix();
-  translate(playerpos.x, playerpos.y);
-  barrelAngle = (atan2(mouseY-playerpos.y, mouseX-playerpos.x)+radians(-90)); 
+  translate(playerposX, playerposY);
+  barrelAngle = (atan2(mouseY-playerposY, mouseX-playerposX)+radians(-90)); 
   rotate(barrelAngle);
   fill(100);
   rect(-5, 0, 10, 120); //GUN
@@ -93,33 +104,33 @@ void draw() {
    if(playerpos1.y <= 3 && playerpos1.y > 303){
    }
    }*/
-
+/*
   if (playerpos1.x <= 51 && playerpos1.x > 852 && playerpos1.y <= 3 && playerpos1.y > 303) {
     playerpos1.x = x+45;
     playerpos1.y = y+155;
-  }
+  }*/
 
 
   //========================================================================================
   
   if (x <= 50) {
     x += speedX;
-    playerpos.x += 2*speedX;
+    playerposX += 2*speedX;
   }
 
   if ( x >= 792) {
     x += -speedX;
-    playerpos.x += -2*speedX;
+    playerposX += -2*speedX;
   }
 
   if (y >= 305) {
     y += -speedY;
-    playerpos.y += -2*speedY;
+    playerposY += -2*speedY;
   }
 
   if (y <= 3) {
     y += speedY;
-    playerpos.y += 2*speedY;
+    playerposY += 2*speedY;
   }
   
   
@@ -131,23 +142,23 @@ void draw() {
    
    if(keyCode == RIGHT && keyPressed){
    x += speedX;
-   playerpos.x += 2*speedX;
+   playerposX += 2*speedX;
    }
    
    if(keyCode == LEFT && keyPressed){
    x += -speedX;
-   playerpos.x += -2*speedX;
+   playerposX += -2*speedX;
    }
    
    if(keyCode == UP && keyPressed){
    y += -speedY;
-   playerpos.y += -2*speedY;
+   playerposY += -2*speedY;
    }
    
    
    if(keyCode == DOWN && keyPressed){
    y += speedY;
-   playerpos.y += 2*speedY;
+   playerposY += 2*speedY;
    }
    }
 

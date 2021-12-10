@@ -1,3 +1,31 @@
+/*  class Bullet {
+    
+    int playerposX = 835;
+    int playerposY = 445;
+    
+    int bulletSpeed = 6;
+    
+    rotate(barrelAngle);
+    
+    playerposX = cos(barrelAngle)*bulletSpeed;
+    playerposY = sin(barrelAngle)*bulletSpeed;
+    
+    bulletRadius = 8;
+    
+    ellipseMode(CENTER);
+    
+    ellipse(playerposX,playerposY,8,8);
+    
+    
+    
+  }*/
+  
+  
+  
+  
+  
+  
+  
   /*class Bullet {
     
     PVector playerpos = new PVector(835.0,445.0);
@@ -35,3 +63,4 @@
     playerpos1.y = y+155;
   }
   }*/
+  
