@@ -20,13 +20,17 @@ void draw() {
 
   background(20);
 
-  l.display();
+b.delayWall();
+
   l.move();
+  l.display();
 
-  r.display();
+
   r.move();
+  r.display();
 
-  b.display();
   b.move();
+  b.display();
+
   //b.mouseClicked();
 }
