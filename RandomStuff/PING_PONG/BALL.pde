@@ -9,8 +9,8 @@ class Ball {
   int x = width/2;
   int y = height/2;
 
-  int speedX = 12;
-  int speedY = 5;
+  int speedX = 13;
+  int speedY = 6;
 
 
   Ball(int x, int y) {

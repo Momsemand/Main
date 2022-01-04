@@ -2,7 +2,7 @@
 // eksempelkode brugt fra 'The Coding Train' på youtube:
 //https://youtu.be/XwfOVFelLoo + https://youtu.be/NrwaKOsplZk
 
-int speedY = 6;
+int speedY = 5;
 
 class leftBracket {
 
