@@ -7,11 +7,11 @@
 class Ball {
 
   int x = width/2;
-int y = height/2;
+  int y = height/2;
 
-int speedX = 12;
-int speedY = 6;
-  
+  int speedX = 12;
+  int speedY = 6;
+
   //PVector ballpos = new PVector(950,480);
 
   // set ball start posotion to middle of window
@@ -51,6 +51,9 @@ int speedY = 6;
       speedY = -speedY;
       speedY = (int)random(-10, 10);
     }
+    
+    //wall collision left and right
+    if(this.x 
 
 
 
@@ -68,35 +71,35 @@ int speedY = 6;
     }
   }
 
+
   void delayWall() {
 
     //wall collision left and right
-    if (this.x < -50 || this.x > 1875+50) {
-      /*speedX = -speedX;
-       speedY = (int)random(-10,10);*/
+    
+    speedX = -speedX;
+     speedY = (int)random(-10,10);
 
-      delay(300);
+    delay(300);
 
-      l.y = 405;
-      l.x = 150;
+    l.y = 405;
+    l.x = 150;
 
-      r.y = 405;
-      r.x = 150;
+    r.y = 405;
+    r.x = 150;
 
-      delay(1200);
+    delay(1200);
 
-      this.x = width/2;
-      this.y = height/2;
+    this.x = width/2;
+    this.y = height/2;
 
-      speedY = (int)random(-8, 8);
-      speedX = (int)random(0, 1);
-      if (speedX == 0) {
-        speedX = -12;
-      }
+    speedY = (int)random(-8, 8);
+    speedX = (int)random(0, 1);
+    if (speedX == 0) {
+      speedX = -12;
+    }
 
-      if (speedX == 1) {
-        speedX = 12;
-      }
+    if (speedX == 1) {
+      speedX = 12;
     }
   }
 }
