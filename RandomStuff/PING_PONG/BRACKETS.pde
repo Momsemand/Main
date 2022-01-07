@@ -2,7 +2,7 @@
 // eksempelkode brugt fra 'The Coding Train' på youtube:
 //https://youtu.be/XwfOVFelLoo + https://youtu.be/NrwaKOsplZk
 
-int speedY = 4;
+int speedY = 5;
 
 class leftBracket {
 
@@ -20,7 +20,7 @@ class leftBracket {
     rectMode(CORNER);
     stroke(0);
     fill(255);
-    rect(x, y, bracketSizeX, bracketSizeY); //LEFT BRACKET
+    rect(x, y-10, bracketSizeX, bracketSizeY); //LEFT BRACKET
   }
 
 
@@ -65,7 +65,7 @@ class rightBracket {
   void display() { //https://youtu.be/XwfOVFelLoo + https://youtu.be/NrwaKOsplZk
     stroke(0);
     fill(255);
-    rect(x+1592, y, bracketSizeX, bracketSizeY); //RIGHT BRACKET
+    rect(x+1592, y+70, bracketSizeX, bracketSizeY); //RIGHT BRACKET
   }
 
 
