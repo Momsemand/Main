@@ -12,7 +12,7 @@ class Ball {
   int speedX = 12;
   int speedY = 6;
 
-  //PVector ballpos = new PVector(950,480);
+  //PVector ballpos = new PVector(width/2,height/2);
 
   // set ball start posotion to middle of window
 
@@ -61,6 +61,10 @@ class Ball {
   void move() {
 
     bracketHit = false;
+    
+    if(bracketHit == false){
+      speedX = 
+    }
 
     /*speedX = (int)random(0, 1);
      if (speedX == 0) {
