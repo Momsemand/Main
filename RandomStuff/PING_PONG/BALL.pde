@@ -61,12 +61,12 @@ class Ball {
   void move() {
 
     bracketHit = false;
-    
+   /* 
     if(bracketHit == false){
-      speedX = 
+      speedX = 12;
     }
 
-    /*speedX = (int)random(0, 1);
+    speedX = (int)random(0, 1);
      if (speedX == 0) {
      speedX = -12;
      }
@@ -180,7 +180,7 @@ class Ball {
       delay(1200);
 
       if (bracketHit == false) {
-        speedX = 4;
+        speedX = 8;
       }
 
       this.x = width/2;
