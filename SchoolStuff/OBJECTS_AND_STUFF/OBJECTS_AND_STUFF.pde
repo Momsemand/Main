@@ -115,18 +115,22 @@ void draw() {
 
     if (i == 0) {
       f.drawFirkant();
+      delay(yes);
     }
 
     if (i == 1) {
       d.drawCircle();
+      delay(yes);
     }
 
     if (i == 2) {
       t.drawTriangle();
+      delay(yes);
     }
 
     if (i == 3) {
       r.drawRect();
+      delay(yes);
     }
   
 
