@@ -1,4 +1,5 @@
-/*float bx;
+/*
+float bx;
 float by;
 int boxSize = 75;
 boolean overBox = false;
@@ -55,4 +56,5 @@ void mouseDragged() {
 
 void mouseReleased() {
   locked = false;
-}*/
+}
+*/
